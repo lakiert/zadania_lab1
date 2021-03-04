@@ -87,16 +87,3 @@ typ_string = 'string'
 typ_float = 12.56
 typ_szes = 555
 print("string: %(x)s\nfloat: %(y)f\nszesnastkowy: %(z)x\n" %{'x':typ_string, 'y':typ_float, 'z':typ_szes})
-
-
-
-
-
-
-
-
-
-
-
-
-
