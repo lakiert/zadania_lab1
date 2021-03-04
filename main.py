@@ -1,3 +1,5 @@
+# zad1
+
 liczba1 = 5
 liczba2 = 10
 
