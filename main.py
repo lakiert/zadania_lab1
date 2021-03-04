@@ -1,7 +1,7 @@
 from math import *
 
 # zad1
-print('zadanie 1: \n')
+print('\nzadanie 1: \n')
 liczba1 = 5
 liczba2 = 10
 
@@ -52,24 +52,41 @@ print(a)
 print('\n zadanie 4: \n')
 
 print(pow(e,10))
-print(pow(log(5+pow(sin(8),2)),1/6))
+print((log(5+(sin(8))**2))**1/6)
+print(floor(3.55))
+print(ceil(4.8))
 
+# zad5
+print('\n zadanie 5: \n')
 
+imie = 'OLA'
+nazwisko = 'LĄKIERT'
+print(imie.capitalize(), nazwisko.capitalize())
 
+# zad6
+print('\n zadanie 6: \n')
 
+piosenka = 'to jest piosenka la la la la la'
+print(piosenka.count('la'))
 
+# zad7
+print('\n zadanie 7: \n')
 
+slowo = 'karton'
+print(slowo[1], slowo[-1])
 
+# zad8
+print('\n zadanie 8: \n')
 
+print(piosenka.split())
 
+# zad9
+print('\n zadanie 9: \n')
 
-
-
-
-
-
-
-
+typ_string = 'string'
+typ_float = 12.56
+typ_szes = 555
+print("string: %(x)s\nfloat: %(y)f\nszesnastkowy: %(z)x\n" %{'x':typ_string, 'y':typ_float, 'z':typ_szes})
 
 
 
